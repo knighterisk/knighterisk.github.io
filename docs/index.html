@@ -2,7 +2,9 @@
 <html>
 	<head>
 		<title>Knighterisk's Website</title>
-		<link rel="icon" href="https://i.imgur.com/ATQZbzN.gif" type="image/x-icon">
+		<link rel="stylesheet" href="./style.css">
+		<link rel="icon" href="https://i.imgur.com/ATQZbzN.gif" type="image/x-icon"> <!-- favicon -->
+		<!-- metadata for embed -->
 		<meta content="Knighterisk's Website" = property="og:title"/>
 		<meta content="Come visit my website!" = property="og:description"/>
 		<meta content="https://knighterisk.github.io/" = property="og:url"/>
@@ -13,26 +15,29 @@
 		<div id="title">
 			<h1>Welcome to Knighterisk's Website!</h1>
 		</div>
-		<div id="introduction">
+		<div class="container" id="introduction">
 			<h1><h1>
 			<h2>Hi friends,</h2>
 			<p>
-				Below is a GIF of my character Spermesto that I first conceived of last Spring.
+				Below is a GIF of my character <em>Spermesto</em> that I first conceived of last Spring.
 				He is a friendly sperm cell with kind eyes.
 				I think that he's a very endearing character.
 			</p>
 			<img src="https://i.imgur.com/ATQZbzN.gif" alt="spermesto spin animation"/>
-			<p>Do you think he'll be the first to reach the egg?</p>
+			<p><strong>Do you think he'll be the first to reach the egg?</strong></p>
 		</div>
-		<div id="music">
+		<div class="container" id="music">
 			<h2>Music</h2>
-			<h3>Spermesto's theme (acapella)</h3>
-			<p>Here is Spermesto's original acapella theme. It's all my voice and I didn't use any pitch correction. It's pretty cool right?<p/>
-			<audio src="https://cdn.discordapp.com/attachments/667511138623291422/1233101898392014958/spermesto_new_2.mp3?ex=679fa622&is=679e54a2&hm=86f5faf6a53f96bfe517a080176cb2a91791170970d2feaf8317c83fe3f213c0&" controls/>
-			<br>
-			<h3>Spermesto's theme (acoustic guitar)</h3>
-			<p>Here is my acoustic guitar cover of Spermesto's theme. It translated surprisingly well to guitar, hooray.<p/>
-			<audio src="https://cdn.discordapp.com/attachments/667511138623291422/1268046720898699346/spermesto_acoustic.mp3?ex=679f8e49&is=679e3cc9&hm=9372122780d144517bc99d3084ece5abb68a83c65ba2abe86833b668766171b7&" controls/>
+			<div class="song-container">
+				<h3>Spermesto's theme (acapella)</h3>
+				<p>Here is Spermesto's original acapella theme. It's all my voice and I didn't use any pitch correction. It's pretty cool right?<p/>
+				<audio src="https://cdn.discordapp.com/attachments/667511138623291422/1233101898392014958/spermesto_new_2.mp3?ex=679fa622&is=679e54a2&hm=86f5faf6a53f96bfe517a080176cb2a91791170970d2feaf8317c83fe3f213c0&" controls/>
+			</div>
+			<div class="song-container">
+				<h3>Spermesto's theme (acoustic guitar)</h3>
+				<p>Here is my acoustic guitar cover of Spermesto's theme. It translated surprisingly well to guitar, hooray!<p/>
+				<audio src="https://cdn.discordapp.com/attachments/667511138623291422/1268046720898699346/spermesto_acoustic.mp3?ex=679f8e49&is=679e3cc9&hm=9372122780d144517bc99d3084ece5abb68a83c65ba2abe86833b668766171b7&" controls/>
+			</div>
 		</div>
 	</body>
 </html>

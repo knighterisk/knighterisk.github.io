@@ -1,0 +1,53 @@
+body {
+	background-image: url(https://i.imgur.com/ATQZbzN.gif);
+	background-size: 5% 5%;
+	font-family: "Arial", sans-serif;
+	text-align: center;
+}
+
+h1 {
+	background: #fff;
+	margin: auto;
+}
+
+h2 {
+	background: #000;
+	color: #fff;
+	font-family: "Courier New", monospace;
+	transition: 0.1s;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+	border: 3px solid #000;
+	transition: 0.1s;
+}
+
+img:hover {
+	border: 5px solid red;
+}
+
+/*h2:hover {
+	background: #78766f;
+	color: #a3fcff;
+}*/
+
+.container {
+	background: #dbdac5;
+	margin: 10px auto;
+	min-width: 200px;
+	width: 60%;
+	padding: 10px;
+}
+
+.song-container {
+	background: #edede1;
+	margin: 10px 10px;
+	padding: 20px;
+	transition: 0.1s;
+}
+
+.song-container:hover {
+	background: #fff;
+}
